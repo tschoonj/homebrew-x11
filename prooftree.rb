@@ -13,6 +13,8 @@ class Prooftree < Formula
 
   depends_on "lablgtk"
 
+  # these changes in the comments were necessary to get things compiling.
+  # did not manage to contact the authors regarding this.
   patch :DATA
 
   def install
